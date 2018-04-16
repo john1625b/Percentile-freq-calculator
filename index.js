@@ -19,10 +19,7 @@ const percentileCalc = (data, percentile, itemName, freqName) => {
 		}
 	}
 
-	//flattened = flattened.sort();
 	flattened = _.sortBy(flattened)
-	console.log(flattened)
-	const index = Math.ceil((flattened.length * percentile));
 
 	fs.writeFile("./output.txt", flattened, function(err) {
 			if(err) {
@@ -32,10 +29,11 @@ const percentileCalc = (data, percentile, itemName, freqName) => {
 			console.log("file saved with array output");
 			});
 
+	const index = Math.ceil((flattened.length * (percentile / 100) ));
 	return flattened[index];
 }
 
-console.log(percentileCalc(json, 0.5, "qps", "freq"));
+console.log(percentileCalc(json, 50, "qps", "freq"));
 
 
 module.exports = percentileCalc;
