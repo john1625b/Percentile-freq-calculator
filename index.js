@@ -1,12 +1,10 @@
 const json = require('./results-20180413-161401');
 
-// console.log(json.stringify(json));
 const arr = JSON.parse(json);
-// console.log(arr)
+
 arr.map(row => {
   return {qps:row.qps, freq: row.freq}
 })
-console.log(arr);
 
 
 const data = [
