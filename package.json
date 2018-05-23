@@ -1,0 +1,11 @@
+{
+  "name": "percentile-freq-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "John Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
