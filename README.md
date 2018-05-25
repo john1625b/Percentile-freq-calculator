@@ -2,6 +2,8 @@
 
 This package calculates percentiles given a frequency distribution. Other npm percentile packages assume you have raw unaggregated data points.
 
+[npm link](https://www.npmjs.com/package/percentile-freq-calculator)
+
 ## Usage
 Takes in data, an array of objects with "item" as the name of the key of the primary data and "freq" as the name of the key of the frequency data.
 
