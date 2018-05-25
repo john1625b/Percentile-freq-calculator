@@ -8,6 +8,7 @@ Takes in data, an array of objects with "item" as the name of the key of the pri
 ```
 const percentile_freq_calculator = require('percentile-freq-calculator');
 
+
 const data = [{myItem:1, freq: 1},{myItem:2, freq: 3},{myItem:3, freq: 6}]
 
 percentile_freq_calculator(data, 50, "qps", "freq") // returns the median
