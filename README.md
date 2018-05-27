@@ -5,7 +5,7 @@ This package calculates percentiles given a frequency distribution. Other npm pe
 [npm link](https://www.npmjs.com/package/percentile-freq-calculator)
 
 ## Usage
-Takes in data, an array of objects with "item" as the name of the key of the primary data and "freq" as the name of the key of the frequency data.
+Takes in data, an array of objects with "myValue" as the name of the key of the primary data and "freq" as the name of the key of the frequency data.
 
 ```
 const percentile_freq_calculator = require('percentile-freq-calculator');
