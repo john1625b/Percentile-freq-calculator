@@ -1,4 +1,4 @@
-# Percentile-Frequency-Calculator
+# Percentile-Freq-Calculator
 
 This package calculates percentiles given a frequency distribution. Other npm percentile packages assume you have raw unaggregated data points.
 
