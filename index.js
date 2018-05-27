@@ -13,7 +13,7 @@ function percentile_freq_calculator(data, percentile, itemName, freqName) {
 
 	flattened = _.sortBy(flattened)
 
-	const index = Math.ceil((flattened.length * (percentile / 100) ));
+	const index = Math.ceil((flattened.length * percentile ));
 	return flattened[index];
 }
 
