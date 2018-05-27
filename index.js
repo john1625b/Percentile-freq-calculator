@@ -1,14 +1,14 @@
 const _ = require('lodash');
 
-function percentile_freq_calculator(data, percentile, itemName, freqName) {
+function percentile_freq_calculator(data, percentile, valueName, freqName) {
 	let flattened = [];
 	for (let i = 0; i < data.length; i++) {
 		if(!_.isInteger(data[i][freqName])){
 			throw new Error('freq member must be an integer');
 		};
 		for (let j = 0; j < data[i][freqName]; j++) {
-			if (_.has(data[i], itemName) {
-				flattened.push(data[i][itemName]);
+			if (_.has(data[i], valueName) {
+				flattened.push(data[i][valueName]);
 			}
 		}
 	}
