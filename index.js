@@ -7,7 +7,9 @@ function percentile_freq_calculator(data, percentile, itemName, freqName) {
 			throw new Error('freq member must be an integer');
 		};
 		for (let j = 0; j < data[i][freqName]; j++) {
-			flattened.push(data[i][itemName]);
+			if (_.has(data[i], itemName) {
+				flattened.push(data[i][itemName]);
+			}
 		}
 	}
 
