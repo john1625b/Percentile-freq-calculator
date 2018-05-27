@@ -7,7 +7,7 @@ function percentile_freq_calculator(data, percentile, valueName, freqName) {
 			throw new Error('freq member must be an integer');
 		};
 		for (let j = 0; j < data[i][freqName]; j++) {
-			if (_.has(data[i], valueName) {
+			if (_.has(data[i], valueName)) {
 				flattened.push(data[i][valueName]);
 			}
 		}
@@ -20,3 +20,4 @@ function percentile_freq_calculator(data, percentile, valueName, freqName) {
 }
 
 module.exports = percentile_freq_calculator;
+
