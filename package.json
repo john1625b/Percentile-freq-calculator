@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/john1625b"
+    "url": "https://github.com/john1625b/Percentile-freq-calculator"
   },
   "dependencies": {
     "lodash": "^4.17.5"
