@@ -9,6 +9,14 @@
     "type": "git",
     "url": "https://github.com/john1625b/Percentile-freq-calculator"
   },
+  "keywords": [
+    "statistics",
+    "percentiles",
+    "frequency",
+    "count",
+    "histogram",
+    "distriubtion"
+  ],
   "dependencies": {
     "lodash": "^4.17.5"
   }
